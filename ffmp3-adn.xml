@@ -1,0 +1,7 @@
+﻿<muses-skin folder="ffmp3-adn">
+  <bg image="bg.png" x="0" y="0" />
+  <play image="play-a.png" x="528" y="20" clickimage="playclick.png" bgimage="play.png" />
+  <stop image="stop-a.png" x="610" y="20" clickimage="stopclick.png" bgimage="stop.png" />
+  <volume x="0" y="30" width="500" height="68" color1="#ff31f8" color2="#666666" barwidth="6" barStep="10" holderImage="holder.png" mode="bars" You-can-try-with-mode="bars" />
+  <status imagePlay="statusplay.png" imageStop="statusstop.png" x="12" y="0" />
+</muses-skin>
