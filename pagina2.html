@@ -38,7 +38,10 @@
     <title>Minhas outras radios</title>
     <p><a href="index.html" target="_self"
         rel="prev">Voltar</a></p>
-
+<!-- http://videojs.com/ -->
+<link href="//cdnjs.cloudflare.com/ajax/libs/video.js/6.2.1/video-js.min.css" rel="stylesheet">
+<script src="///cdnjs.cloudflare.com/ajax/libs/video.js/6.2.1/video.min.js"></script>
+ 
 </head>
 <body>
     <h1>Relação de Radios</h1>
@@ -52,12 +55,56 @@
         <audio controls src="http://stream.zeno.fm/mq0ytc34608uv"> </audio>
         </div>
         <div class="a">
+          <h1>Recordnews</h1>
 
-        <h1>ABBa</h1>
-        <audio controls src="https://mega.nz/file/LnR1UC4B#7Qer5dbD3FgghMj0J227sMMTDNLqUAVedJVdEsYPzJ0"> </audio>
-        <link rel="stylesheet" href="https://mega.nz/file/LnR1UC4B#7Qer5dbD3FgghMj0J227sMMTDNLqUAVedJVdEsYPzJ0">
-        </div>
-        <a href="https://mega.nz/file/LnR1UC4B#7Qer5dbD3FgghMj0J227sMMTDNLqUAVedJVdEsYPzJ0">Exemplo</a>
+        
+          <video
+          id="rs21"
+          width="640"
+          height="360"
+          class="video-js vjs-default-skin"
+          controls
+          poster="//lh3.googleusercontent.com/cbE0oPcN9ybGpP-VNVkz9AEnzWezqdbXXdEBcsWI0PLbCYQwPYYEMGJW-C253khNNRk">
+          <source
+              src="https://playplusnews-lh.akamaihd.net/i/pp_nws@377849/master.m3u8"
+              type="application/x-mpegURL">
+      </video>
+       
+      <!-- http://videojs.com/plugins/ -->
+      <!-- https://npmjs.org/package/videojs-contrib-hls -->
+      <script src="//cdnjs.cloudflare.com/ajax/libs/videojs-contrib-hls/5.7.0/videojs-contrib-hls.min.js"></script>
+      <script>
+      var player = videojs('rs21');
+      player.play();
+      </script>
+               
+                  </div>
+        
+                  <div class="a">
+                    <h1>Bandnews</h1>
+          
+                  
+                    <video
+                    id="rs22"
+                    width="640"
+                    height="360"
+                    class="video-js vjs-default-skin"
+                    controls
+                    poster="//lh3.googleusercontent.com/cbE0oPcN9ybGpP-VNVkz9AEnzWezqdbXXdEBcsWI0PLbCYQwPYYEMGJW-C253khNNRk">
+                    <source
+                        src="https://d31ii3fk8fd7mh.cloudfront.net/d02c7cfb0fc5432fb5e4a103c836a2e3/index_3.m3u8"
+                        type="application/x-mpegURL">
+                </video>
+                 
+                <!-- http://videojs.com/plugins/ -->
+                <!-- https://npmjs.org/package/videojs-contrib-hls -->
+                <script src="//cdnjs.cloudflare.com/ajax/libs/videojs-contrib-hls/5.7.0/videojs-contrib-hls.min.js"></script>
+                <script>
+                var player = videojs('rs22');
+                player.play();
+                </script>
+                         
+                            </div>
 
 
        
