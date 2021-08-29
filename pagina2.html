@@ -44,16 +44,7 @@
  
 </head>
 <body>
-    <h1>Relação de Radios</h1>
-    <h2>Radio Roberto Carlos</h2>
-    <h3>Em construção</h3>
 
-    
-      <div class="a">
-
-        <h1>Diário FM</h1>
-        <audio controls src="http://stream.zeno.fm/mq0ytc34608uv"> </audio>
-        </div>
         <div class="a">
           <h1>Recordnews</h1>
 
@@ -105,6 +96,33 @@
                 </script>
                          
                             </div>
+
+                            <div class="a">
+                              <h1>Globonews</h1>
+                    
+                            
+                              <video
+                              id="rs23"
+                              width="640"
+                              height="360"
+                              class="video-js vjs-default-skin"
+                              controls preload="none"
+                              poster="//lh3.googleusercontent.com/cbE0oPcN9ybGpP-VNVkz9AEnzWezqdbXXdEBcsWI0PLbCYQwPYYEMGJW-C253khNNRk">
+                              <source
+                                  src="http://live.video.globo.com/h/1402196702324012345678915746223249876543210St7g4OJToXerIDT3UieWkw/k/app/a/A/u/anyone/d/s/hls-gnews24ha/hls-gnews24ha_655/playlist.m3u8?PEDROJUNIORTUTORIAIS"
+                                  type="application/x-mpegURL">
+                          </video>
+                           
+                          <!-- http://videojs.com/plugins/ -->
+                          <!-- https://npmjs.org/package/videojs-contrib-hls -->
+                          <script src="//cdnjs.cloudflare.com/ajax/libs/videojs-contrib-hls/5.7.0/videojs-contrib-hls.min.js"></script>
+                          <script>
+                          var player = videojs('rs23');
+                          player.play();
+                          </script>
+                                   
+                                      </div>
+          
 
 
        
